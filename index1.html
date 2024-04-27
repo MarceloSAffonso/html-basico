@@ -1,0 +1,161 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+</head>
+<body>
+    <div>
+        <h2>Diferença de Div e Section - Usando Div</h2> <!--Parte da estrutura do html -->
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit tempore rem aperiam,
+             voluptate beatae, explicabo accusantium cum consectetur magnam quod unde quis ea inventore autem qui dicta expedita vitae possimus.
+        </p>
+    </div>
+    <section>
+        <h2>Difenreça de DIV e Section - Usando Section</h2> <!--Usar para agrupar Ex; Seçao de noticias-->
+        <p> Noticia 1 - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius recusandae magnam odio tenetur perspiciatis ducimus. 
+            Molestias aliquam, aspernatur minus natus repellendus ex dolorum nisi, ab, fugiat doloribus tenetur nesciunt cum?</p>
+            <p> Noticia 2 - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius recusandae magnam odio tenetur perspiciatis ducimus. 
+                Molestias aliquam, aspernatur minus natus repellendus ex dolorum nisi, ab, fugiat doloribus tenetur nesciunt cum?</p>
+    </section>
+    <!--Lista com numero e com bolinhas-->
+    <h1>Lista não Ordenada</h1>
+    <ul>
+        <li>Verde</li>
+        <li>Amarelo</li>
+        <li>Roxo</li>
+        <li>Azul</li>
+        <li>Branco</li>
+        <li>Preto</li>
+    </ul>
+
+    <h2>Lista Ordenada</h2>
+    <ol>
+        <li>Verde</li>
+        <li>Amarelo</li>
+        <li>Roxo</li>
+        <li>Azul</li>
+        <li>Branco</li>
+        <li>Preto</li>
+    </ol>
+
+    <!--Estilização-->
+    <!-- em seria transformar o texto em italico, strong negrito-->
+    <p>
+        <strong>Nome:</strong> <em>Marcelo</em> Affonso 
+    </p>
+
+    <!-- U seria para sublinhar, S para tachado -->
+    <p>
+        <u>Observação:</u> Este item esta em promoção!
+    </p>
+    <p>
+        De R$ <s><strong><em>100.00</em></strong></s> por 50.00
+    </p>
+    
+    <p>
+        H<sup>2</sup>O <!--Numero a cima -->
+    </p>
+    <p>
+        E=MC<sub>2</sub> <!--Numero abaixo-->
+    </p>
+
+    <!--Inserir imagem na pagina-->
+    <img src="C:\Users\marce\Downloads\img.png" alt="voo 3">
+
+    <div id="meusDados"> <!--unico -->
+        Nome: Marcelo Affonso
+    </div>
+    <div class = "Noticias">
+        Noticia 1
+    </div>
+    <div class="Noticias">
+        Noticia 2
+    </div>
+    <a href="https://www.google.com.br" title="Vai para o Google" target="_blank" > Ir para o google </a> <!-- Link para o usuario clicar, blank vai para um nova aba-->
+    <img src="Caminhodanossaimagem.png" alt="descricao da imagem">
+    <script src="caminhoscript.js"></script>
+    <iframe src="www.g1.com.br"></iframe>
+    <embed src="https://www.youtube.com/watch?v=0JpXlW1l7rk">
+
+    <a href="#secao3"> Ir para Secao 3</a> <!--Indo para a secao3 neste caso-->
+    <a href="#secao2"> Ir para Secao 2</a> <!-- Determinando para onde ele vai -->
+    <a href="#secao1"> Ir para Secao 1</a>
+
+    <h2 id="secao1">Secao 1</h2> <!-- colocar o id para podre ir para a secao desejada-->
+    <p>Conteudo secao 1 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque molestiae adipisci vel aspernatur illum. 
+        Quam velit deserunt omnis perferendis nam tempore doloribus, eos eum incidunt fugit maxime exercitationem natus. Adipisci.</p>
+    <h2 id="secao2">Secao 2</h2>
+    Conteudo secao 2 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque molestiae adipisci vel aspernatur illum. 
+    Quam velit deserunt omnis perferendis nam tempore doloribus, eos eum incidunt fugit maxime exercitationem natus. Adipisci.</p>
+    <h2 id="secao3">Secao 3</h2>
+    Conteudo secao 3 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque molestiae adipisci vel aspernatur illum. 
+    Quam velit deserunt omnis perferendis nam tempore doloribus, eos eum incidunt fugit maxime exercitationem natus. Adipisci.</p>
+
+    <a href="mailto:email@gmail.com.br?subject=Assunto do email&cc=outroemail@email.com&body=Favor entrar em contato!">Enviar e-mail</a> 
+    <!--disparar email, subject preenche o assunto do email, &body= mensagem que vc vai mandar email  cc= para mandar para outro email-->
+
+    <a href="tel:+5521970466465">Ligar para Marcelo</a> <!--Vai abrir o aplicativo para ligacao-->
+    <a href="wa.me/5521970466465">MSG para Marcelo</a> 
+
+    <a href="javascript:alert('Boa noite pessoal!')">Clique aqui</a> <!-- Abre o javascript e da uma mensagem para o usuario-->
+    
+    <!-- tabelas -->
+
+    <table border = "1">
+        <caption>Minha tabela</caption>
+        <thead>
+            <tr>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Linha 1</td>
+                <td>linha 1</td>
+            </tr>
+        </tbody>
+       <tfoot>
+            <tr>
+                <td>Linha 2</td>
+                <td>Linha 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- action enviar para algum endereco especifico, verbos em http post, get, put, -->
+    <form action="file:///C:/Users/marce/OneDrive/%C3%81rea%20de%20Trabalho/Front-essencial/index.html" method="GET">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"placeholder="Preencha o seu nome">
+        <br><br>
+        <label for="email"> E-mail </label> 
+        <input type="email" id="email" name="email" placeholder="Preencha o email ">
+        <br><br>
+        <label for="mensagem"> Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="7" placeholder="Digite sua mensagem"></textarea> <!-- cria uma caixa de texto com tamanhos -->
+        <br> <br>
+        <input type="password" id="password" name="password"> <!--Bolinha do password-->
+        <br> <br>
+        <input type="number" id="idade" name="idade">
+        <br> <br>
+        <input type="date" id="dataDeNascimento" name="dataDeNascimento">
+        <br> <br>                                                                              <!-- marcar mais de uma opçao-->
+        <label><input type="checkbox" name="interesse" value="Futebol"> Futebol</label><br> <!--marcar caixinhas com o check -->
+        <label><input type="checkbox" name="interesse" value="Musica"> Musica</label><br> <!--marcar caixinhas com o check -->
+        <br> <br>
+        <label><input type="radio" name="genero" value="masculino"> Masculino</label><br> <!-- radio para escolher uma opcao -->
+        <label><input type ="radio" name="genero" value="feminino"> Feminino </label><br>
+        <label><input type ="radio" name="genero" value="outro"> Outro </label><br>
+        <br>
+        <input type="button" value="Enviar">
+        <br><br>
+        <input type="submit" value="Enviar submit">
+
+    </form>
+
+
+</body>
+</html>

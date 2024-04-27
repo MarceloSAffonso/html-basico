@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #838383;
+            font-family: "Sedan", serif; 
+        }
+        #cabecalho {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            margin: 20px;                       
+        }
+        .destaques {
+            color: rgb(255, 255, 255);
+            border: 1px solid rgb(0, 138, 18);            
+        }
+        input[type ="submit"]{   /* input especificado [] so vai mudar para esse */  
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px; /* arredondar a borda do botao */
+        }
+        div p { /*so vai alterar dentro da div */
+            color: rgb(255, 255, 255);
+        }
+        div > p{
+            border: 1px dashed green;
+        }
+        .segundoParagrafo{
+            color: blue;
+        }
+        a:hover {
+            color: green; /*muda a cor quando vc coloca o mou em cima*/
+        }
+
+        p.ptexto{
+            font-size: 150%;
+            color: rgb(15, 41, 88);
+        }
+    </style>
+</head>
+<body>
+    <!--Seletores-->
+    <header id="cabecalho">
+        <h1>CREATIVE BAGS CROCHE</h1>
+    </header>
+
+    <p class="destaques">Este e um paragrafo de destaque </p>
+    <p class="destaques">Este e o segundo paragrafo de destaque </p>
+
+    <input type="submit" value="enviar">
+    <input type="text">
+
+    <div>
+        <p>Este e um paragrafo dentro da div</p>
+    </div>
+
+    <div>
+        <p>Este e um paragrafo dentro da div</p>
+        <pc class="segundoParagrafo"> Segundo paragrafo</p>
+        <span>Este e um span</span>
+    </div>
+    
+    <a href="#">Link de Exemplo</a>
+
+    <p class="ptexto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Id autem minima, reiciendis nisi dignissimos, 
+        accusamus doloremque nam odit, <span>odio voluptas magni ex earum nostrum</span>.
+         Consectetur in deserunt dignissimos aliquid dolor.</p>
+
+    <h1>Meu Titulo</h1>     
+</body>
+</html>
